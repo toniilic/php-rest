@@ -69,5 +69,55 @@ A REST API is needed for our JavaScript programming tutorials. This post will he
 	(48, 'Bristol Shoes', 'Awesome shoes.', '999', 5, '2016-01-08 06:36:37', '2016-01-08 05:36:37'),
 	(60, 'Rolex Watch', 'Luxury watch.', '25000', 1, '2016-01-11 15:46:02', '2016-01-11 14:46:02');
 
+
+### Endpoints
+
+***Reads products***
+
+http://localhost:8080/api/product/read.php
+
+***Creates product***
+
+http://localhost:8080/api/product/create.php
+	
+	{
+	    "name" : "Amazing Pillow 2.0",
+	    "price" : "199",
+	    "description" : "The best pillow for amazing programmers.",
+	    "category_id" : 2,
+	    "created" : "2018-06-01 00:35:07"
+	}
+
+***Read one record***
+
+http://localhost:8080/api/product/read_one.php?id=60
+
+***Check for the product that does not exist***
+
+http://localhost:8080/api/product/read_one.php?id=999
+
+***Update product***
+
+http://localhost:8080/api/product/update.php
+
+	{
+	    "id" : "106",
+	    "name" : "Amazing Pillow 3.0",
+	    "price" : "255",
+	    "description" : "The best pillow for amazing programmers.",
+	    "category_id" : 2,
+	    "created" : "2018-08-01 00:35:07"
+	}
+
+
+
 Current:
-4.1 Product object
+8.1 Create "delete.php" file
+
+
+
+
+
+
+
+
