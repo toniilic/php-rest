@@ -109,10 +109,22 @@ http://localhost:8080/api/product/update.php
 	    "created" : "2018-08-01 00:35:07"
 	}
 
+***Delete product***
+
+http://localhost:8080/api/product/delete.php
+
+	{
+	    "id" : "106"
+	}
+
+***Search products***
+
+http://localhost:8080/api/product/search.php?s=shirt
+
 
 
 Current:
-8.1 Create "delete.php" file
+10.1 Create "read_paging.php" file
 
 
 
