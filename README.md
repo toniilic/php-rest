@@ -12,7 +12,9 @@ A REST API is needed for our JavaScript programming tutorials. This post will he
 	Angular 2 CRUD Tutorial
 
 
-2) Create database `api_db`
+1) Create database `api_db` and run server
+	
+	 php -S localhost:8080
 
 2) Create categories table
 
@@ -124,7 +126,7 @@ http://localhost:8080/api/product/search.php?s=shirt
 
 
 Current:
-10.1 Create "read_paging.php" file
+11.1 Create "category.php" file
 
 
 
