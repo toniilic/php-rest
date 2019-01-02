@@ -126,7 +126,8 @@ http://localhost:8080/api/product/search.php?s=shirt
 
 
 Current:
-11.1 Create "category.php" file
+11.4 Output
+
 
 
 
