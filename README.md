@@ -1,7 +1,6 @@
 Tutotrial:
 https://www.codeofaninja.com/2017/02/create-simple-rest-api-in-php.html
 
-Next: https://www.codeofaninja.com/2015/12/angularjs-crud-example-php.html
 
 1.4 REST API in our tutorials
 A REST API is needed for our JavaScript programming tutorials. This post will help you a lot with that need. Our JavaScript programming tutorials includes the following topics:
@@ -123,16 +122,34 @@ http://localhost:8080/api/product/delete.php
 
 http://localhost:8080/api/product/search.php?s=shirt
 
+***Read categories***
+
+	http://localhost:8080/api/category/read.php
 
 
-Current:
-11.4 Output
+# Casino bonuses API
 
-
-
-
-
-
-
-
-
+array:7 [
+  "title" => "$10 No Deposit Bonus at Jumba Bet Casino"
+  "url" => "https://www.thebigfreechiplist.com/155503/10-No-Deposit-Bonus-at-Jumba-Bet-Casino/"
+  "bonus_codes" => array:2 [
+    0 => "A83J6K"
+    1 => "A857CW"
+  ]
+  "bonus_types" => array:2 [
+    0 => "No Deposit Bonus"
+    1 => "New players and account holders"
+  ]
+  "valid_until" => "2019-01-09"
+  "games_allowed" => array:8 [
+    0 => "Bingo"
+    1 => "Blackjack"
+    2 => "Craps"
+    3 => "Keno"
+    4 => "Roulette"
+    5 => "Scratch Cards"
+    6 => "Slots"
+    7 => "Video Poker"
+  ]
+  "wagering" => "99xB"
+]
